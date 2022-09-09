@@ -1,5 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-h1{
-  color: blueviolet;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html{
+  font-size: 10px;
+}
+
+body{
+  font-family: 'Pippins','Arial','sans-serif';
+  background-color: #1F1D2B;
+  ;
+}
+
+header{
+  padding: 28px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ser-bar{
+  width: 585px;
+  height: 40px;
+  padding: 15px;
+  color: #E5E5E5;
+  background-color: #353440;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+}
+
+
+.ser-btn{
+  width: 40px;
+  height: 40px;
+  background-color: #353440;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.right-seaction{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 60px;
+}
+
+.account-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.user-name{
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding-left: 12px;
+  padding-right: 6px;
+}
+.noti-icon{
+  padding-left: 30px;
 }
